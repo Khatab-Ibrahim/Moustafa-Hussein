@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>Moustafa Hussein | Connect with me</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #090909;
+      color: #fff;
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      padding: 34px 18px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 430px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 92px;
+      height: 92px;
+      margin: 8px auto 28px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 35px;
+      line-height: 1.15;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      margin-top: 13px;
+      margin-bottom: 42px;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 5px;
+      color: #bdbdbd;
+      text-transform: uppercase;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .link-card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      min-height: 86px;
+      padding: 15px 48px 15px 20px;
+      border: 1px solid #3f3f3f;
+      border-radius: 15px;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      text-align: left;
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+
+    .link-card:active {
+      transform: scale(.985);
+    }
+
+    .link-card:hover {
+      border-color: #fff;
+      background: #151515;
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      flex: 0 0 48px;
+      border: 1px solid #555;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+
+    .info {
+      min-width: 0;
+    }
+
+    .name {
+      display: block;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: .4px;
+      margin-bottom: 6px;
+    }
+
+    .desc {
+      display: block;
+      font-family: Arial, sans-serif;
+      color: #8f8f8f;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .arrow {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #777;
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 300;
+    }
+
+    .footer {
+      margin-top: 38px;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      color: #555;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 360px) {
+      h1 { font-size: 29px; }
+      .subtitle { letter-spacing: 3.5px; }
+      .link-card { min-height: 80px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <div class="logo" aria-label="Moustafa Hussein">MH</div>
+
+    <h1>Moustafa Hussein</h1>
+    <div class="subtitle">Connect with me</div>
+
+    <section class="links">
+
+      <a class="link-card"
+         href="https://wa.me/201019694564"
+         target="_blank"
+         rel="noopener noreferrer">
+        <div class="icon">WA</div>
+        <div class="info">
+          <span class="name">WhatsApp</span>
+          <span class="desc">Message me directly</span>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link-card"
+         href="https://www.instagram.com/hussien2988?igsi=MWNzbDN6YzRzM3NsZw=="
+         target="_blank"
+         rel="noopener noreferrer">
+        <div class="icon">IG</div>
+        <div class="info">
+          <span class="name">Instagram</span>
+          <span class="desc">Follow me on Instagram</span>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="link-card"
+         href="https://www.facebook.com/share/1EAnNkhuNz/"
+         target="_blank"
+         rel="noopener noreferrer">
+        <div class="icon">FB</div>
+        <div class="info">
+          <span class="name">Facebook</span>
+          <span class="desc">Connect with me on Facebook</span>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+    </section>
+
+    <div class="footer">MOUSTAFA HUSSEIN</div>
+  </main>
+</body>
+</html>
